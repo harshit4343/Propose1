@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Shagun ❤️</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <h1 data-aos="fade-down">Dear Shagun</h1>
+        
+        <div class="gallery" data-aos="fade-up">
+            <div class="photo">
+                <img src="/api/placeholder/150/150" alt="Memory 1">
+            </div>
+            <div class="photo">
+                <img src="/api/placeholder/150/150" alt="Memory 2">
+            </div>
+            <div class="photo">
+                <img src="/api/placeholder/150/150" alt="Memory 3">
+            </div>
+        </div>
+
+        <p data-aos="fade-up" data-aos-delay="200">
+            From the moment our paths crossed, my life has been filled with colors I never knew existed. Your smile brightens my darkest days, and your laugh is the sweetest melody I've ever heard.
+        </p>
+        
+        <p data-aos="fade-up" data-aos-delay="400">
+            Every moment spent with you feels like a beautiful dream, and I never want to wake up. You make my heart skip a beat every time I see you.
+        </p>
+
+        <p class="question" data-aos="fade-up" data-aos-delay="600">
+            Will you make me the luckiest person by being mine forever?
+        </p>
+
+        <div class="buttons" data-aos="fade-up" data-aos-delay="800">
+            <button class="btn btn-yes" onclick="sayYes()">Yes ❤️</button>
+            <button class="btn btn-no" ontouchstart="moveButton(this)" onmouseover="moveButton(this)">No</button>
+        </div>
+
+        <div id="special-message" class="hidden">
+            Thank you for making me the happiest person alive! 🎉❤️
+            <br>
+            I promise to cherish every moment with you!
+        </div>
+    </div>
+
+    <button class="music-control" onclick="toggleMusic()">🎵</button>
+    <audio id="bgMusic" loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
